@@ -1,0 +1,42 @@
+//GET /api/v1/films
+curl --request GET \
+  --url http://localhost:3001/api/v1/films
+
+
+//GET /api/v1/films/:id
+curl --request GET \
+  --url http://localhost:3001/api/v1/films/1
+
+
+//POST http://localhost:3001/api/v1/films/
+curl --location --request POST 'http://localhost:3001/api/v1/films/' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+        "title": "Cars",
+        "favorite": 1,
+        "watchdate": "27/05/2022",
+        "rating": 5,
+        "user": 1
+}'
+
+
+//PUT http://localhost:3001/api/v1/films/9
+curl --location --request PUT 'http://localhost:3001/api/v1/films/9' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+        "title": "Cars3",
+        "favorite": 0,
+        "watchdate": "27/05/2022",
+        "rating": 4,
+        "user": 1
+}'
+
+
+//PUT /api/v1/films/:id/favorite
+curl --location --request PUT 'http://localhost:3001/api/v1/films/1/favorite'
+
+
+//DELETE /api/v1/films/:id
+curl --request DELETE \
+  --url http://localhost:3001/api/v1/films/1
+  
