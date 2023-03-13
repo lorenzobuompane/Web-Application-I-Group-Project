@@ -1,11 +1,11 @@
-# BigLab 2
+# BigLab
 
 ## Team name: cyberweb
 
 Team members:
-* s304930 BUOMPANE LORENZO
-* s305954 DEMATTIA GIACOMO  
-* s305959 CHESSA MARCO
+* BUOMPANE LORENZO
+* DEMATTIA GIACOMO  
+* CHESSA MARCO
 
 ## Instructions
 
